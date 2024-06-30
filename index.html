@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MI PORTAFOLIO</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">DIOMEDES AMIN CASTRO CANTILLO</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills"  onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum " onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto " onclick="seleccionar()">CONTACTO</a></li>
+                    <!-- <li><a href="#portafolio">PORTAFOLIO</a></li> -->
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="F:\PORTAFOLIO\proyectoPortafolio\img\diomedes.jpg" alt="">
+            </div>
+            <h1>DIOMEDES AMIN CASTRO CANTILLO</h1>
+            <h2>Estudiante de desarrollo de software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/diomedescc"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/Diomedes-castro"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, Soy Diomedes castro</span> un estudiante apasionado de desarrollo de software con un ardiente deseo de aprender
+                    y crecer en la industria tecnológica. Desde que descubrí mi fascinación por el mundo del código, He estado inmerso en la exploración 
+                    de diferentes lenguajes y tecnologías, Buscando
+                    constantemente desafios que amplíen mis habilidades.
+                    Mi viaje en el desarrollo de software ha sido emocionante y gratificante, Y estoy emocionado por lo que el futuro me depara en este campo
+                    en constante evolución. Mi objetivo es convertirme en un desarrollador versátil y competente, Capaz de abordar una variedad de proyectos
+                    con creatividad y precisión.
+                    Siempre estoy buscando oportunidades para aprender algo nuevo y mejorar mis habilidades existentes. Creo firmemente en la importancia
+                    de la educación continua y estoy comprometido a mantenerme al dia con las últimas tendencias y avances en tecnología.
+                    En resumen, Soy un entusiasta del desarrollo de software con una mentalidad de crecimiento y una pasión por aprender. Estoy emocionado
+                    por las oportunidades que me esperan y estoy listo para enfrentar cualquier desafío que se presente en mi camino hacia la  excelencia
+                    en el desarrollo de software. </p>
+
+            <div class="fila">
+                <!--datos perdonales aqui-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            27-10-1988
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            3008340104
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            diomedes2718@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Cra 14f Nº 51-44 Antonio Nariño, soledad
+                        </li>
+                    </ul>
+                </div>
+
+                <!--intereses aqui-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-interes">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book-open"></i>
+                            <span>LEER</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-desktop"></i>
+                            <span>TECNOLOGIA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descar CV <i class="fa-solid fa-file-arrow-down"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--SECCION SKILLS-->
+    <section class="skills" id="skills"> 
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--technical skill-->
+                <div class="col">
+                    <h3>technical skill</h3>
+                    <div class="skill">
+                        <span>JAVASCRIPT</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PYTHON</span>
+                        <div class="barra-skill">
+                            <div class="progreso python">
+                                <span>15%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--professional skill-->
+                <div class="col">
+                    <h3>professional skill</h3>
+                    <div class="skill">
+                        <span>COMUNICACION</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>TRABAJO EN EQUIPO</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajo">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>LIDERAZGO</span>
+                        <div class="barra-skill">
+                            <div class="progreso lider">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CURRICULUM-->
+    <section class="curriculum" id="curriculum"> 
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Tecnico En Analisis y Desarrollo De Software</h4>
+                        <span class="casa">System Center</span>
+                        <span class="fecha">2006 - 2009</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                        </div> 
+                        <div class="item izq">
+                            <h4>Tecnologo En Analisis y Desarrollo De Software</h4>
+                            <span class="casa">Servicio Nacional De Aprendizaje (Sena)</span>
+                            <span class="fecha">2022 - Cursando</span>
+                            <p></p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>   
+                    </div>
+                
+                <div class="col derecha">
+                    <h3>Experiencias</h3>
+                    <div class="item der">
+                        <h4>No Experiencias<h4>
+                        <span class="casa">Ninguna</span>
+                        <span class="fecha"></span>
+                        <p></p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                        </div>
+                        <div class="item der">
+                            <h4>No Experiencias<h4>
+                            <span class="casa">Ninguna</span>
+                            <span class="fecha"></span>
+                            <p></p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>   
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--SECCION PORTAFOLIO-->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2></h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="" alt="">
+                    <div class="overlay">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Numero telefono">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"> </span>
+                    </button>
+                </div>
+                <!---información-->
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Colombia, Barranquilla
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone-volume"></i>
+                            Llamanos: 3008340104
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-at"></i>
+                            Email: diomedes_castro@soy.sena.edu.co
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/diomedescc"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/Diomedes-castro"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
